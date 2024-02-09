@@ -1,0 +1,13 @@
+
+<div class="container">
+<h3>Colours List</h3>
+<div class="colourData">
+    <table class="table">
+      <tbody><tr><th>Colour</th><th>Count</th></tr>
+      <tr *ngFor="let colour of colourData">
+        <td [ngClass]="getColourClass(colour.colour)">{{colour.colour}}</td>
+        <td>{{colour.count}}</td>
+      </tr></tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,83 @@
+.dynamic-color {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+.dynamic-color.blue {
+    background-color: var(--blue);
+}
+  
+  .dynamic-color.yellow {
+    background-color: var(--yellow);
+  }
+  
+  .dynamic-color.white {
+    background-color: var(--white);
+  }
+  
+  .dynamic-color.grey {
+    background-color: var(--grey);
+  }
+  
+  .dynamic-color.orange {
+    background-color: var(--orange);
+  }
+  
+  .dynamic-color.puce {
+    background-color: var(--puce);
+  }
+  
+  .dynamic-color.crimson {
+    background-color: var(--crimson);
+  }
+  
+  .dynamic-color.pink {
+    background-color: var(--pink);
+  }
+  
+  .dynamic-color.green {
+    background-color: var(--green);
+  }
+  
+  .dynamic-color.indigo {
+    background-color: var(--indigo);
+  }
+  
+  .dynamic-color.purple {
+    background-color: var(--purple);
+  }
+  
+  .dynamic-color.aquamarine {
+    background-color: var(--aquamarine);
+  }
+  
+  .dynamic-color.fuscia {
+    background-color: var(--fuscia);
+  }
+  
+  .dynamic-color.goldenrod {
+    background-color: var(--goldenrod);
+  }
+  
+  .dynamic-color.khaki {
+    background-color: var(--khaki);
+  }
+  
+  .dynamic-color.maroon {
+    background-color: var(--maroon);
+  }
+  
+  .dynamic-color.mauv {
+    background-color: var(--mauv);
+  }
+  
+  .dynamic-color.red {
+    background-color: var(--red);
+  }
+  
+  .dynamic-color.turquoise {
+    background-color: var(--turquoise);
+  }
+  
+  .dynamic-color.violet {
+    background-color: var(--violet);
+  }

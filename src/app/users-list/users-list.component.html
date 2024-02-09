@@ -1,0 +1,28 @@
+<h3>Users List</h3>
+<div class="container">
+    <div class="userData">
+      <table class="table">
+        <tbody><tr><th>First Name</th>
+        <th>Last Name</th>
+        <th>email</th>
+        <th>dob</th>
+        <th>Favourite Colour</th>
+        <th>age</th>
+        <th>age + 20</th>
+      </tr>   
+      <tr *ngFor="let user of userData">
+        <td>{{ user.firstName}}</td>
+        <td>{{ user.lastName}}</td>
+        <td>{{ user.email}}</td>
+        <td>{{ user.dob | dateFormat:'dd/MM/yyyy' }}</td>
+        <td>{{ user.favouriteColour}}</td>
+        <td>{{ user.age}}</td>
+        <td>{{ user.ageplus20}}</td>
+      </tr>
+      </tbody>
+      </table>
+    </div>
+    
+   
+  </div>
+  <!-- <router-outlet /> -->
